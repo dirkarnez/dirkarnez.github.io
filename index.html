@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Alex Chan</title>
     <style>
+        /*  from [printing - How can I force browsers to print background images in CSS? - Stack Overflow](https://stackoverflow.com/questions/6670151/how-can-i-force-browsers-to-print-background-images-in-css) */
+        * {
+            -webkit-print-color-adjust: exact !important;   /* Chrome, Safari 6 – 15.3, Edge */
+            color-adjust: exact !important;                 /* Firefox 48 – 96 */
+            print-color-adjust: exact !important;           /* Firefox 97+, Safari 15.4+ */
+        }
+        
         :root {
             --main-bg-color: #084aaa;
         }
