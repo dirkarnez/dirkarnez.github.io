@@ -4,4 +4,4 @@
 - [ ] blog
 - [ ] add item
   - fpga, verilog
-  - 
+  - usb dev
