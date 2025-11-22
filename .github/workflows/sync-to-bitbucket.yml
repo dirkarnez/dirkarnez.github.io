@@ -1,7 +1,7 @@
 name: sync-to-bitbucket
 
-on: 
-  push
+# on: 
+#   push
 
 jobs:
   build:
