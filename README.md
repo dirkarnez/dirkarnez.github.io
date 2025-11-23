@@ -6,5 +6,6 @@
   - fpga, verilog
   - usb dev
   - porting services
+  - pcb
 - [ ] More numeric
 - [ ] Latex pdf?
