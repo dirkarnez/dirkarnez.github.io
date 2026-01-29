@@ -9,3 +9,4 @@
   - pcb
 - [ ] More numeric
 - [ ] Latex pdf?
+- [ ] pyodide
